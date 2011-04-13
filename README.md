@@ -1,4 +1,4 @@
-![Brutus logo](https://github.com/jalberto/Brutus/raw/master/brutus/logo.jpg)
+![Brutus logo](/brutus/brutus/raw/master/brutus/logo.jpg)
 logo by Lara Garrido <lgarrido@emergya.es>
 
 # Welcome to Brutus theme's. An agile, powerful, easy and accessible theme for theme developers
