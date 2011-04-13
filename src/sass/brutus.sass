@@ -1,0 +1,66 @@
+@import "compass"
+@import "compass/css3/opacity"
+@import "partials/_reset"
+//@import "partials/_grid"
+@import "partials/_info"
+@import "partials/_layout"
+@import "partials/_skinr"
+
+
+
+/* Layout General grid
+
+#page
+  width: $full
+  margin: 0 auto
+
+#header, #footer, #main, #navigation
+  width: $col16
+  margin: 0 $pad
+
+#content
+  float: left
+  width: 100%
+  margin-right: -100%
+
+.sidebar
+  float: left
+
+#sidebar-second
+  float: right
+
+#footer
+  float: none
+  clear: both
+
+#header, #footer, #navigator, .mission, .breadcrumb, .node
+  clear: both
+
+/* Sidebars width
+
+.sidebar
+  float: left
+
+#sidebar-second
+  float: right
+
+.two-sidebars .center, .sidebar-left .center
+  margin-left: $col3
+
+#sidebar-first
+  width: $col3
+  @include first
+
+.two-sidebars .center, .sidebar-right .center
+  margin-right: $col4
+
+#sidebar-second
+  width: $col4
+  margin: 0 $pad
+  @include last
+
+/* Columns Inner
+
+.inner
+  padding: 0
+  
